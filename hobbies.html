@@ -17,6 +17,18 @@
                 height: 200px;
             }
         }
+         .book-img {
+            height: 350px;
+            width: 100%;
+            object-fit: contain;
+        }
+        .f1-img {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+
     </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- jQuery used to load the navbar -->
@@ -25,6 +37,31 @@
 <body>
     <a class="visually-hidden-focusable" href="#main-content">Skip to main content</a>  
 <div id="nav-placeholder"></div>
+
+ <!-- Hobbies Section -->
+   <main id="main-content" class="container mt-5 mb-5">
+        <h1 class="text-center">Hobbies</h1>
+        <p class="text-center">A few things I love outside of cybersecurity.</p>
+
+          <!-- Card 1: Reading -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h2 class="card-title">Reading</h2>
+                <p class="card-text">I am a mood reader who usually has several books going at once and always has one on me. My reading covers almost every section of the bookstore: fantasy, dystopian, science fiction, contemporary, and general fiction, plus nonfiction on psychology, sociology, AI, society, religion, and history. I also collect Formula One books and writing reference books. My collection has outgrown my shelving space, and my YouTube feed is filled with book content.</p>
+
+                
+                <div class="row g-4 mt-2">
+
+                    <!-- Book 1 -->
+                    <div class="col-md-6">
+                        <img src="images/villians.png" class="book-img rounded" alt="Book cover of If We Were Villains by M. L. Rio">
+                        <!-- text-center → centers the button, target="_blank" → opens in a new tab -->
+                        <div class="text-center mt-3">
+                            <a href="https://a.co/d/0hajFgeC" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">View Book</a>
+                        </div>
+                        <h3 class="h5 mt-3"><em>If We Were Villains</em> by M. L. Rio</h3>
+                        <p>A dark academia thriller about seven acting students at a prestigious conservatory who perform nothing but Shakespeare. When one is found dead, the lines between the roles on stage and who the students really are start to blur. Ten years later, student Oliver Marks is finally ready to tell the truth. I enjoy how Rio makes the characters feel real and distinct from one another, and how the plot weaves together past and present storylines along with the construction of the dark academia backdrop.</p>
+                    </div>
 
 
 
