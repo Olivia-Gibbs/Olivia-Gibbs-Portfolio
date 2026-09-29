@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Olivia Gibbs Portfolio</title>
+    <title> Home/ Olivia Gibbs Portfolio</title>
     <!-- Using Bootstrap 5 framework -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
      <style>
@@ -37,29 +37,32 @@
 
             <!-- This is the buttons for the programs -->
              <div class="text-center mt-3">
-             <a href="https://catalog.msudenver.edu/preview_program.php?catoid=59&poid=13764&returnto=4526" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Cybersecurity Program <img src="images/cyberbrain.jpg" alt="Brain with blue code parts inside" class="ms-1" style="height: 50px;"></a>
-              <a href="https://catalog.msudenver.edu/preview_program.php?catoid=59&poid=13772&returnto=4528" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Computer Security Program <img src="images/codelock.jpg" alt="Lock with code inside" class="ms-1" style="height: 50px;"></a>
-              <a href="https://catalog.msudenver.edu/preview_program.php?catoid=59&poid=13504&returnto=4528" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Criminal Justice Program <img src="images/fingerprint.png" alt="Justice scale inside a detecitve like fingerprint" class="ms-1" style="height: 50px;"></a>
+             <a href="https://catalog.msudenver.edu/preview_program.php?catoid=59&poid=13764&returnto=4526" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Cybersecurity Program <span class="visually-hidden"> (opens in a new tab)</span> <img src="images/cyberbrain.jpg" alt="Brain with blue code parts inside" class="ms-1" style="height: 50px;"></a>
+              <a href="https://catalog.msudenver.edu/preview_program.php?catoid=59&poid=13772&returnto=4528" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Computer Security Program <span class="visually-hidden"> (opens in a new tab)</span> <img src="images/codelock.jpg" alt="Lock with code inside" class="ms-1" style="height: 50px;"></a>
+              <a href="https://catalog.msudenver.edu/preview_program.php?catoid=59&poid=13504&returnto=4528" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Criminal Justice Program <span class="visually-hidden"> (opens in a new tab)</span><img src="images/fingerprint.png" alt="Justice scale inside a detecitve like fingerprint" class="ms-1" style="height: 50px;"></a>
               </div>
         </div>
     </div>
  </div>
 
  <!-- Job Experience Section-->
-  <main id="main-content">
- <h1 class="text-center mt-5">Job Experience</h1>
+  <section id="jobs" aria-labelledby="jobs-heading">
+ <h2 id="jobs-heading" class="h1 text-center mt-5"> Job Experience</h2>
  <div class="container">
     <div class="card">
         <div class="card-body"> 
            
             <!-- This is the buttons for Job externals-->
               <div class="text-center mt-3">
- <a href="https://www.linkedin.com/in/olivia-gibbs-b1787b432/?isSelfProfile=true" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+ <a href="https://www.linkedin.com/in/olivia-gibbs-b1787b432/?isSelfProfile=true" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">LinkedIn Profile <span class="visually-hidden"> opens in a new tab</span></a>
  <a href="Olivia_Gibbs_Resume.docx" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer"> Resume</a>
+ </div>
+ </div>
+ </div>
  </div>
 
  <!--This is my present job-->
-  <div class ="container mt-5"></div>
+  <div class ="container mt-5">
    <button type="button" class="btn btn-outline-light w-100 text-start p-3" data-bs-toggle="collapse" data-bs-target="#bundt" aria-expanded="false" aria-controls="bundt">
     <stong> Baking Assistant/Joy Creator</strong><br>
     <small> Nothing Bundt Cakes: May 2026–Present</small>
@@ -72,10 +75,11 @@
 
   <div class="table-responsive">
     <table class="table table-striped">
+        <caption class="visually-hidden">Skilly from Nothing Bundt Cakes and why the matter in cybersecuirty</caption>
         <thead>
             <tr>
-                <th> Skill</th>
-                <th> Why it Matters in Cybersecurity</th>
+                <th scope="col">Skilly</th>
+                <th scope="col">Why It Matters In Cybersecurity</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -141,10 +145,11 @@
          <!-- This is the table for my past job-->
          <div class="table-responsive">
           <table class="table table-striped">
+            <caption class="visually-hidden">Skill from Riley Blake Designs and why they matter in cybersecurity</caption>
             <thead>
               <tr>
-                <th>Skill</th>
-                <th>Why It Matters in Cybersecurity</th>
+                <th scope="col">Skills</th>
+                <th scope="col">Why It Matters in Cybersecurity</th>
               </tr>
             </thead>
             <tbody>
@@ -189,10 +194,11 @@
     </div> 
   </div> 
 </div> 
+</section>
 
-<!-- Activities Section Go Here-->
-  <main id="main-content">
- <h1 class="text-center mt-5">Activities </h1>
+<!-- Activities Section-->
+  <section id="activites" aria-labelledby="actvities-heading">
+ <h2 id="activities-heading" class="h1 text-center mt-5">Activities</h2>
  <div class="container">
     </div>
 
@@ -209,10 +215,11 @@
 <p class="card-text">I played trombone in Symphonic Band and pep band, and synthesizer in the marching band's front ensemble. During marching season, I committed 15 to 20 hours a week to rehearsals, football games, and competitions. We competed at the Colorado Bandmasters Association (CBA) State Championships both seasons. Our band placed 7th of 14 in the Class 5A quarterfinals in 2021 and 8th of 14 in the Class 4A quarterfinals in 2022. My synthesizer cart served as the hub for the front ensemble's electronics, so I was responsible for setting up and connecting everything before every performance. My favorite show was <em>Moonlight's Curse</em>. In Symphonic Band, I challenged for second chair and moved up, and our band earned high ratings at festivals. After two marching seasons, I moved to tech theater to focus on the technical side of live performances.</p>
  <div class="table-responsive">
           <table class="table table-striped">
+            <caption class="visually-hidden">Skill from Marching and Symphonic Band and why they matter in cybersecurity</caption>
             <thead>
               <tr>
-                <th>Skill</th>
-                <th>Why It Matters in Cybersecurity</th>
+                <th scope="col">Skill</th>
+                <th scope="col">Why It Matters in Cybersecurity</th>
               </tr>
             </thead>
             <tbody>
@@ -245,8 +252,8 @@
         </div>
 
  <div class="text-center mt-3">
-          <a href="https://www.youtube.com/watch?v=Olf5C1zwm6k" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">2021 Show Reveal</a>
-          <a href="https://www.youtube.com/watch?v=NXAW4nPFCWc" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">2022 Show Reveal</a>
+          <a href="https://www.youtube.com/watch?v=Olf5C1zwm6k" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">2021 Show Reveal<span class="visually-hidden"> Youtube video, opens in a new tab</span></a>
+          <a href="https://www.youtube.com/watch?v=NXAW4nPFCWc" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">2022 Show Reveal <span class="visually-hidden"> Youtube video, opens in a new tab</span></a>
         </div>
 
       </div> 
@@ -271,10 +278,11 @@
 
         <div class="table-responsive">
           <table class="table table-striped">
+            <caption class="visually-hidden"> Skills from Tech Theater and why they matter in cybersecurity </caption>
             <thead>
               <tr>
-                <th>Skill</th>
-                <th>Why It Matters in Cybersecurity</th>
+                <th scope="col">Skill</th>
+                <th scope="col">Why It Matters in Cybersecurity</th>
               </tr>
             </thead>
             <tbody>
@@ -323,11 +331,12 @@
   </div> 
 
 </div>
+</section>
 
 
 <!-- This is the Contact Me Section-->
- <main id="main-content">
- <h1 class="text-center mt-5">Contact Me</h1>
+ <section id="contact" aria-labelledby="contact-heading">
+ <h2 id="contact heading"class="h1 text-center mt-5">Contact Me</h2>
  <div class="container">
     <div class="card">
         <div class="card-body"> 
@@ -345,6 +354,12 @@
               <a href="mailto:oliviagibbs1111@gmail.com" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Industry Email</a>
               <a href="mailto:ogibbs@msudenver.edu" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Academic Email</a>
               </div>
+              </div> 
+    </div> 
+  </div> 
+
+</div>
+ 
 
   <script>
         $(function () {
